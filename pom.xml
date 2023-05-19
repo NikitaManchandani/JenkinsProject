@@ -1,20 +1,20 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-
-  <modelVersion>4.0.0</modelVersion>
-
-  <groupId>com.example.maven-project</groupId>
-  <artifactId>maven-project</artifactId>
-  <packaging>pom</packaging>
-  <version>1.7.1-SNAPSHO</version>
-  <name>Maven Project</name>
-  <description>Sample Maven project with a working, deployable site.</description>
-  <url>http://www.example.com</url>
-
-  <properties>
-    <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
-  </properties>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.baeldung</groupId>
+    <artifactId>counter-maven-plugin</artifactId>
+    <packaging>maven-plugin</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+ 
+    <name>counter-maven-plugin Maven Mojo</name>
+    <url>http://maven.apache.org</url>
+ 
+    <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+    </properties>
 
   <modules>
     <module>server</module>
